@@ -119,6 +119,14 @@ span.age{
     color: white;
 } 
 
+.col-1,
+.col-2,
+.col-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 @media (max-width: 486px){
     .col-1,
     .col-2,
