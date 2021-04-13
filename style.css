@@ -118,3 +118,9 @@ span.age{
     border: none;
     color: white;
 } 
+
+@media (max-width: 486px){
+    .row{
+        gap: 60px;
+    }
+}
