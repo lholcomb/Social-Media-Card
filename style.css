@@ -119,8 +119,10 @@ span.age{
     color: white;
 } 
 
-@media (max-width: 414px){
-    .row {
-        gap: 65px !important;
+@media (max-width: 486px){
+    .col-1,
+    .col-2,
+    .col-3{
+        padding: 0 15px;
     }
 }
